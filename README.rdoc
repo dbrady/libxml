@@ -4,7 +4,7 @@
 
 This version (at github) is a copy of the standard 1.1.3 version but
 with all references to stderr removed. This makes libxml shut up when
-running specs fram other projects that use libxml.
+running specs from other projects that use libxml.
 
 == Overview
 The libxml gem provides Ruby language bindings for GNOME's Libxml2
