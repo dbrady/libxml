@@ -1,5 +1,11 @@
 = LibXML Ruby
 
+== Dbrady Version
+
+This version (at github) is a copy of the standard 1.1.3 version but
+with all references to stderr removed. This makes libxml shut up when
+running specs fram other projects that use libxml.
+
 == Overview
 The libxml gem provides Ruby language bindings for GNOME's Libxml2
 XML toolkit. It is free software, released under the MIT License.

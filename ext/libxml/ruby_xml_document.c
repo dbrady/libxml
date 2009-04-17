@@ -91,8 +91,8 @@ static void LibXML_validity_warning(void * ctxt, const char * msg, va_list ap)
   }
   else
   {
-    fprintf(stderr, "warning -- found validity error: ");
-    fprintf(stderr, msg, ap);
+/*     fprintf(stderr, "warning -- found validity error: "); */
+/*     fprintf(stderr, msg, ap); */
   }
 }
 
@@ -762,8 +762,8 @@ void LibXML_validity_error(void * ctxt, const char * msg, va_list ap)
   }
   else
   {
-    fprintf(stderr, "error -- found validity error: ");
-    fprintf(stderr, msg, ap);
+/*     fprintf(stderr, "error -- found validity error: "); */
+/*     fprintf(stderr, msg, ap); */
   }
 }
 

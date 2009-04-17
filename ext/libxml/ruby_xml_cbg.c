@@ -26,7 +26,7 @@ typedef struct deb_doc_context
 
 int deb_Match(char const *filename)
 {
-  fprintf(stderr, "deb_Match: %s\n", filename);
+/*   fprintf(stderr, "deb_Match: %s\n", filename); */
   if (!xmlStrncasecmp(BAD_CAST filename, BAD_CAST "deb://", 6))
   {
     return (1);
